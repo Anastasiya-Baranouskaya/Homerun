@@ -78,6 +78,10 @@ button{
  background-color: #0099FF;
  color: #fff;
 }
+.tempat{
+    display: flex;
+    align-items: center;
+}
 
 /* hiring */
 .hiring{
@@ -106,18 +110,46 @@ button{
 }
 .search{
     
-    padding-top: 31px;
-    padding-bottom: 35px;
+    padding-top: 33px;
+    padding-bottom: 37px;
 }
 .search_text{
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-bottom: 15px;
+    width: 300px;
+    padding: 15px 10px;
     font-family: 'Roboto';
     color: #b2b2b2;
+    background: #FFFFFF;
+    
+    border: 1px solid #0099FF;
 }
 .search_button{
     padding: 15px;
     border-radius: 0 8px 8px 0;
     border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #0099FF;
+}
+/* section teams */
+.teams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #B2B2B2;
+}
+.teams_text{
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+.teams_list{
+
+}
+.teams_icons{
+    display: flex;
+
+}
+.icons{
+    width: 160px;
+    height: 120px;
 }
